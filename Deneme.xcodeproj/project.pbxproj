@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1FFF90FB1C0E358A00F9F759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF90FA1C0E358A00F9F759 /* AppDelegate.swift */; };
+		1FFF90FD1C0E358A00F9F759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF90FC1C0E358A00F9F759 /* ViewController.swift */; };
+		1FFF91001C0E358A00F9F759 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF90FE1C0E358A00F9F759 /* Main.storyboard */; };
+		1FFF91021C0E358A00F9F759 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF91011C0E358A00F9F759 /* Images.xcassets */; };
+		1FFF91051C0E358A00F9F759 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FFF91031C0E358A00F9F759 /* LaunchScreen.xib */; };
+		1FFF91111C0E358A00F9F759 /* DenemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFF91101C0E358A00F9F759 /* DenemeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FFF910B1C0E358A00F9F759 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FFF90ED1C0E358A00F9F759 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FFF90F41C0E358A00F9F759;
+			remoteInfo = Deneme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1FFF90F51C0E358A00F9F759 /* Deneme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Deneme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFF90F91C0E358A00F9F759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFF90FA1C0E358A00F9F759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FFF90FC1C0E358A00F9F759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FFF90FF1C0E358A00F9F759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FFF91011C0E358A00F9F759 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1FFF91041C0E358A00F9F759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1FFF910A1C0E358A00F9F759 /* DenemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DenemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FFF910F1C0E358A00F9F759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FFF91101C0E358A00F9F759 /* DenemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DenemeTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FFF90F21C0E358A00F9F759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFF91071C0E358A00F9F759 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FFF90EC1C0E358A00F9F759 = {
+			isa = PBXGroup;
+			children = (
+				1FFF90F71C0E358A00F9F759 /* Deneme */,
+				1FFF910D1C0E358A00F9F759 /* DenemeTests */,
+				1FFF90F61C0E358A00F9F759 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FFF90F61C0E358A00F9F759 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF90F51C0E358A00F9F759 /* Deneme.app */,
+				1FFF910A1C0E358A00F9F759 /* DenemeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FFF90F71C0E358A00F9F759 /* Deneme */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF90FA1C0E358A00F9F759 /* AppDelegate.swift */,
+				1FFF90FC1C0E358A00F9F759 /* ViewController.swift */,
+				1FFF90FE1C0E358A00F9F759 /* Main.storyboard */,
+				1FFF91011C0E358A00F9F759 /* Images.xcassets */,
+				1FFF91031C0E358A00F9F759 /* LaunchScreen.xib */,
+				1FFF90F81C0E358A00F9F759 /* Supporting Files */,
+			);
+			path = Deneme;
+			sourceTree = "<group>";
+		};
+		1FFF90F81C0E358A00F9F759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF90F91C0E358A00F9F759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1FFF910D1C0E358A00F9F759 /* DenemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF91101C0E358A00F9F759 /* DenemeTests.swift */,
+				1FFF910E1C0E358A00F9F759 /* Supporting Files */,
+			);
+			path = DenemeTests;
+			sourceTree = "<group>";
+		};
+		1FFF910E1C0E358A00F9F759 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1FFF910F1C0E358A00F9F759 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FFF90F41C0E358A00F9F759 /* Deneme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFF91141C0E358A00F9F759 /* Build configuration list for PBXNativeTarget "Deneme" */;
+			buildPhases = (
+				1FFF90F11C0E358A00F9F759 /* Sources */,
+				1FFF90F21C0E358A00F9F759 /* Frameworks */,
+				1FFF90F31C0E358A00F9F759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Deneme;
+			productName = Deneme;
+			productReference = 1FFF90F51C0E358A00F9F759 /* Deneme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FFF91091C0E358A00F9F759 /* DenemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FFF91171C0E358A00F9F759 /* Build configuration list for PBXNativeTarget "DenemeTests" */;
+			buildPhases = (
+				1FFF91061C0E358A00F9F759 /* Sources */,
+				1FFF91071C0E358A00F9F759 /* Frameworks */,
+				1FFF91081C0E358A00F9F759 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FFF910C1C0E358A00F9F759 /* PBXTargetDependency */,
+			);
+			name = DenemeTests;
+			productName = DenemeTests;
+			productReference = 1FFF910A1C0E358A00F9F759 /* DenemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FFF90ED1C0E358A00F9F759 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = NihatBasmaci;
+				TargetAttributes = {
+					1FFF90F41C0E358A00F9F759 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					1FFF91091C0E358A00F9F759 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 1FFF90F41C0E358A00F9F759;
+					};
+				};
+			};
+			buildConfigurationList = 1FFF90F01C0E358A00F9F759 /* Build configuration list for PBXProject "Deneme" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FFF90EC1C0E358A00F9F759;
+			productRefGroup = 1FFF90F61C0E358A00F9F759 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FFF90F41C0E358A00F9F759 /* Deneme */,
+				1FFF91091C0E358A00F9F759 /* DenemeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FFF90F31C0E358A00F9F759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF91001C0E358A00F9F759 /* Main.storyboard in Resources */,
+				1FFF91051C0E358A00F9F759 /* LaunchScreen.xib in Resources */,
+				1FFF91021C0E358A00F9F759 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFF91081C0E358A00F9F759 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FFF90F11C0E358A00F9F759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF90FD1C0E358A00F9F759 /* ViewController.swift in Sources */,
+				1FFF90FB1C0E358A00F9F759 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FFF91061C0E358A00F9F759 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FFF91111C0E358A00F9F759 /* DenemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FFF910C1C0E358A00F9F759 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FFF90F41C0E358A00F9F759 /* Deneme */;
+			targetProxy = 1FFF910B1C0E358A00F9F759 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FFF90FE1C0E358A00F9F759 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFF90FF1C0E358A00F9F759 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FFF91031C0E358A00F9F759 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FFF91041C0E358A00F9F759 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FFF91121C0E358A00F9F759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FFF91131C0E358A00F9F759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FFF91151C0E358A00F9F759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deneme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FFF91161C0E358A00F9F759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Deneme/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FFF91181C0E358A00F9F759 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DenemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme.app/Deneme";
+			};
+			name = Debug;
+		};
+		1FFF91191C0E358A00F9F759 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DenemeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Deneme.app/Deneme";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FFF90F01C0E358A00F9F759 /* Build configuration list for PBXProject "Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF91121C0E358A00F9F759 /* Debug */,
+				1FFF91131C0E358A00F9F759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FFF91141C0E358A00F9F759 /* Build configuration list for PBXNativeTarget "Deneme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF91151C0E358A00F9F759 /* Debug */,
+				1FFF91161C0E358A00F9F759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1FFF91171C0E358A00F9F759 /* Build configuration list for PBXNativeTarget "DenemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FFF91181C0E358A00F9F759 /* Debug */,
+				1FFF91191C0E358A00F9F759 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FFF90ED1C0E358A00F9F759 /* Project object */;
+}
